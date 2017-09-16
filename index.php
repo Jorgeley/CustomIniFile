@@ -10,9 +10,17 @@ $pass = $db['pass'];
 $name = $db['name'];
 $host = $db['host'];
 $type = $db['type'];
+$type = $db['server'];
+$type = $db['ldap'];
+$type = $db['email'];
+$type = $db['log'];
 
 echo "$user\n";
 echo "$pass\n";
 echo "$name\n";
 echo "$host\n";
 echo "$type\n";
+echo "$server\n";
+echo "$ldap\n";
+echo "$email\n";
+echo "$log\n";
